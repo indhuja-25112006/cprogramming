@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int a, b, c, d, e;
+    scanf("%d", &a);
+    scanf("%d", &b);
+    scanf("%d", &c);
+    scanf("%d", &d);
+    scanf("%d", &e);
+
+    int sum = a + b + c + d + e;
+    printf("Sum of the 5 number is : %d\n", sum);
+
+    float avg = sum / 5.0;
+    printf("Average of the 5 number is : %.1f", avg);
+
+    return 0;
+}

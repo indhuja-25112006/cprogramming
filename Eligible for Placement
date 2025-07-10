@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+
+    char name[50];
+    int arrears;
+    int cgpa;
+
+    scanf("%s", name);
+    scanf("%d", &arrears);
+    scanf("%d", &cgpa);
+
+   printf("Name of the Student:%s\n", name);
+    if ((arrears == 1 && cgpa > 70) || ((arrears == 1 || arrears == 2) && cgpa > 75)) 
+    {
+   printf("%s is Eligible for Placement\n", name);
+    }
+ else 
+    {
+   printf("%s is Not Eligible for Placement\n", name);
+    }
+ 
+return 0;
+
+}

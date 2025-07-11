@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+ int main() {
+   int a,b,c;
+    scanf("%d",&a);
+    scanf("%d",&b);
+    scanf("%d",&c);
+  if(a<b) 
+  {
+  if(b<c)
+  {
+      printf("c is largest then a and b");
+  }
+    else 
+      printf("b is largest then a and c");
+    }
+    else 
+    {
+      printf("a is largest then b and c");
+    }
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}

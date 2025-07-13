@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+int n, m, sum = 0, i;
+scanf("%d %d",&n,&m);
+if (n > 0 && m > 0 && n < 30 && m < 30 && n < m)
+{
+for (i = n; i <= m; i++)
+{
+if (i % 2 == 0)
+{
+sum += i;
+}
+}
+printf("%d\n", sum);
+} else
+{
+ printf("Invalid Input\n");
+}
+ return 0;
+}
